@@ -1,0 +1,513 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+*
+{
+	margin:0;
+	padding: 0;
+}
+.wrapper
+{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+
+}
+.topbar
+{
+
+	width: 100%;
+	height: 150px;
+	background-color: #FE5F55;
+
+}
+.logo
+{
+	width: 300px;
+	height: auto;
+	
+
+}
+.logo h1
+{
+	color: #fff;
+	font-family: candara;
+	font-size: 40px;
+	position: relative;
+	top: 30px;
+}
+.nav
+{
+	width: 100%;
+	height: 50px;
+	background-color: #EEF5DB;
+}
+.nav ul
+{
+	display: inline-block;
+}
+.nav li
+{
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	border-right:1px dashed #FE5F55;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+}
+.nav li:last-child{border: none}
+.nav a
+{
+	color: #FE5F55;
+	font-family: calibri;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.nav a:hover{color: black;}
+.footer
+{
+	widows: 100%;
+	height: 50px;
+	background-color: black;
+	clear: both;
+}
+.left
+{
+	width: 45%;
+	height: 50px;
+	float: left;
+	text-align: left;
+	color: white;
+	line-height: 50px;
+	font-family: calibri;
+}
+.right
+{
+	width: 45%;
+	height: 50%;
+	float: right;
+	text-align: right;
+}
+.right a
+{
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: calibri;
+}
+.mobile-nav{display: none;}
+
+/*Text Part*/
+.textpart
+{
+	width: 100%;
+	height: auto;
+
+}
+.part-30
+{
+	width: 20%;
+	height: auto;
+	float: left;
+	padding-left: 2.5%;
+
+}
+.part-70
+{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.floted-img
+{
+	float: left;
+	clear: both;
+	font-size: 30px;
+}
+
+.heading{
+	padding: 30px 0px 30px 0px;
+	font-family: calibri;
+	font-size: 35px;
+	color: #FE5F55;
+}
+.text
+{
+	padding: 30px 0px 30px 0px;
+	text-align: justify;
+}
+.part-30 ul
+{
+	display: inline;
+	list-style: none;
+
+}
+.part-30 li
+{
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px dashed black;
+	line-height: 40px;
+		padding: 5px 0px 5px 0px;
+}
+
+.part-30 a
+{
+	color: black;
+	text-decoration: none;
+}
+.part-30 a:hover
+{
+	color: #FE5F55;
+}
+/*Default page 2 Text Part*/
+
+.column-2{column-count: 2;}
+.column-3{column-count: 3;}
+.pd-remove{
+	padding-left: 0px !important;
+}
+
+.list-icon{float: left;}
+.pd-left-10{padding-left: 10%;}
+.pd-top-50{padding-top: 50px;}
+.pd-left-20{padding-left: 20px;}
+
+.heading {
+    padding: 30px 0px 30px 0px;
+    font-family: calibri;
+    font-size: 35px;
+    color: #FE5F55;
+    text-align: center;
+}
+.part-30
+{
+	width: 20%;
+	height: auto;
+	float: left;
+	padding-left: 2.5%;
+
+}
+.part-70
+{
+	width: 70%;
+	height: auto;
+	float: left;
+	padding-left: 20px;
+}
+@media (max-width: 767px)
+{
+	.mobile-nav{display: block;}
+	.wrapper
+	{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	}
+.topbar
+{
+
+	width: 100%;
+	height: 100px;
+	background-color: #FE5F55;
+
+}
+.logo
+{
+	width: 100%;
+	height: auto;
+	text-align: center;	
+
+}
+.logo h1
+{
+	color: #fff;
+	font-family: candara;
+	font-size: 40px;
+	position: relative;
+	top: 30px;
+}
+.mobile-nav{
+	width: 100%;
+	height: 50px;
+	background-color: #EEF5DB;
+	color: black;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 1px dashed black;
+
+}
+
+.nav
+{
+	width: 100%;
+	height: auto;
+	background-color: #EEF5DB;
+}
+.nav ul
+{
+	display: block;
+}
+.nav li
+{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-bottom:1px dashed #FE5F55;
+	line-height: 50px;
+	text-align: center;
+	
+}
+.nav li:last-child{border: none}
+.nav a
+{
+	color: #FE5F55;
+	font-family: calibri;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.nav a:hover{color: black;}
+.footer
+{
+	widows: 100%;
+	height: 50px;
+	background-color: black;
+}
+.left
+{
+	width: 45%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+	font-family: calibri;
+}
+.right
+{
+	width: 54%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.right a
+{
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: calibri;
+}
+
+
+}
+
+
+
+
+@media(max-width: 767px)
+{
+
+
+/*Text Part*/
+.textpart
+{
+	width: 100%;
+	height: auto;
+
+}
+.part-30
+{
+	width: 90%;
+	height: auto;
+	text-align: center;
+
+}
+.part-70
+{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.floted-img
+{
+	width: 100%;
+	clear: both;
+}
+
+.heading{
+	text-align: center;
+	font-family: calibri;
+	font-size: 35px;
+	color: #FE5F55;
+}
+.text
+{
+	padding: 10px;
+	text-align: justify;
+}
+.part-30 ul
+{
+	display: inline;
+	list-style: none;
+
+}
+.part-30 li
+{
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px dashed black;
+	line-height: 40px;
+
+}
+
+.part-30 a
+{
+	color: black;
+	text-decoration: none;
+}
+.part-30 a:hover
+{
+	color: #FE5F55;
+}
+}
+
+
+
+@media(max-width: 767px)
+{
+	.column-2{column-count: 1;}
+	.column-3{column-count: 1;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+.wrapper
+{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.topbar
+{
+
+	width: 100%;
+	height: 150px;
+	background-color: #FE5F55;
+
+}
+.logo
+{
+	width: 300px;
+	height: auto;
+	
+
+}
+.logo h1
+{
+	color: #fff;
+	font-family: candara;
+	font-size: 40px;
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+.nav
+{
+	width: 100%;
+	height: 50px;
+	background-color: #EEF5DB;
+}
+.nav ul
+{
+	display: inline-block;
+}
+.nav li
+{
+	display: inline-block;
+	width: 120px;
+	height: 50px;
+	border-right:1px dashed #FE5F55;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+}
+.nav li:last-child{border: none}
+.nav a
+{
+	color: #FE5F55;
+	font-family: calibri;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.nav a:hover{color: black;}
+.footer
+{
+	widows: 100%;
+	height: 50px;
+	background-color: black;
+	clear: both;
+}
+.left
+{
+	width: 45%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+	font-family: calibri;
+}
+.right
+{
+	width: 45%;
+	height: 50%;
+	float: right;
+	text-align: center;
+}
+.right a
+{
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: calibri;
+}
+.mobile-nav{display: none;}
+}
+}
+@media all and  (min-width: 768px) and (max-width: 1024px)  and (orientation:landscape) {
+
+	.wrapper
+	{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+	}
+	.nav li
+	{
+	display: inline-block;
+	width: 165px;
+	height: 50px;
+	border-right:1px dashed #FE5F55;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	}
+	.logo h1 {
+    color: #fff;
+    font-family: candara;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+}
